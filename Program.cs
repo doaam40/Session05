@@ -36,8 +36,16 @@
             #endregion
 
             #region Q7
-            Genre genre = Genre.Fiction;
-            Console.WriteLine(genre.ToString());
+            //Genre genre = Genre.Fiction;
+            //Console.WriteLine(genre.ToString());
+            #endregion
+
+            #region Q8
+            Genre genre;
+            string genreText = "Science";
+            bool flag = Enum.TryParse(genreText, out genre);
+            if(flag)
+                Console.WriteLine(genre);
             #endregion
         }
     }
