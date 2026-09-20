@@ -41,11 +41,21 @@
             #endregion
 
             #region Q8
+            //Genre genre;
+            //string genreText = "Science";
+            //bool flag = Enum.TryParse(genreText, out genre);
+            //if(flag)
+            //    Console.WriteLine(genre);
+            #endregion
+
+            #region Q9
             Genre genre;
-            string genreText = "Science";
+            string genreText = "Mystery";
             bool flag = Enum.TryParse(genreText, out genre);
-            if(flag)
+            if (flag)
                 Console.WriteLine(genre);
+            else
+                Console.WriteLine("Unknown genre");
             #endregion
         }
     }
