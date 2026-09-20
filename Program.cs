@@ -11,8 +11,13 @@
             #endregion
 
             #region Q2
-            Console.WriteLine(book.copiesInStock);
+            //Console.WriteLine(book.copiesInStock);
             //it compiles because internal access modifier is accessable in the same assembly (project)
+            #endregion
+
+            #region Q3
+            book.title = "Clean Code";
+            Console.WriteLine(book.title);
             #endregion
         }
     }
