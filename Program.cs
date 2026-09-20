@@ -21,7 +21,13 @@
             #endregion
 
             #region Q4
-            Console.WriteLine(book.Genre);
+            //Console.WriteLine(book.Genre);
+            #endregion
+
+            #region Q5
+            Console.WriteLine((Genre)0);
+            Console.WriteLine((Genre)1);
+            Console.WriteLine((Genre)2);
             #endregion
         }
     }
