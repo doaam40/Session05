@@ -25,9 +25,14 @@
             #endregion
 
             #region Q5
-            Console.WriteLine((Genre)0);
-            Console.WriteLine((Genre)1);
-            Console.WriteLine((Genre)2);
+            //Console.WriteLine((Genre)0);
+            //Console.WriteLine((Genre)1);
+            //Console.WriteLine((Genre)2);
+            #endregion
+
+            #region Q6
+            int genreNumber = 1;
+            Console.WriteLine((Genre)genreNumber);
             #endregion
         }
     }
