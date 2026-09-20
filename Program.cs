@@ -16,8 +16,12 @@
             #endregion
 
             #region Q3
-            book.title = "Clean Code";
-            Console.WriteLine(book.title);
+            //book.title = "Clean Code";
+            //Console.WriteLine(book.title);
+            #endregion
+
+            #region Q4
+            Console.WriteLine(book.Genre);
             #endregion
         }
     }

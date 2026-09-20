@@ -9,5 +9,6 @@ namespace Session05_AssignmentC_
         private string Password = "secret";
         internal int copiesInStock = 5;
         public string title;
+        public Genre Genre = Genre.Science;
     }
 }
